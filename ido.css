@@ -30,6 +30,10 @@ p
 table
 {
 	border:outset;
+	margin: auto;
+	width: 80%;
+	border: 3px;
+	text-align: center;
 }
 
 hr
