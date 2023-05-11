@@ -3,69 +3,71 @@
 
 body
 {
-	background-size:100% auto;
-	background-image: url("background.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-	line-height: 1.5em;
+    background-size:100% auto;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.5em;
 }
 
 #keret
 {
-	position:absolute;
-	left:20%;
-	top:5%;
-	box-shadow: 10px -5px 20px 0px rgba(0,0,0,0.5);
-	padding: 2%;
-	width: 60%;
-	background-color: rgba(255,255,255,0.7);
+    position:absolute;
+    left:20%;
+    top:5%;
+    box-shadow: 10px -5px 20px 0px rgba(0,0,0,0.5);
+    padding: 2%;
+    width: 60%;
+    background-color: rgba(255,255,255,0.7);
 }
 
 p
 {
-	text-align:justify;
+    text-align:justify;
 }
 
 table
 {
-	border: outset;
-	margin: auto;
-	width: 80%;
-	border: 3px;
-	text-align: center;
-	padding: 0;
+    border:outset;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    width: 80%;
+
 }
 
 hr
 {
-	background-color:#243f84;
-	height:2px;
-	width:100%;
+    background-color:#243f84;
+    height:2px;
+    width:100%;
 }
 
 img
 {
-	width:100%;
+    width:100%;
 }
 
 ul
 {
-	font-size:small ;
+    font-size:small ;
 }
 
 input
 {
-	font-size:medium;
-	margin-top:2%;
+    font-size:medium;
+    margin-top:2%;
 }
+
 h1{
     color: #243f84;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
+
 h2{
     color: #243f84;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 .szurke{
     font-size: small;
@@ -76,4 +78,8 @@ h2{
 li{
 	list-style-image: url(nap.png);
 	margin-left: 10%;
+}
+dt{
+	color:  #243f84;
+	text-decoration: underline;
 }
