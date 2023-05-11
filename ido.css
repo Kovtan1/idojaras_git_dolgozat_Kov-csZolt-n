@@ -8,7 +8,7 @@ body
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-	row-gap: 1.5em;
+	line-height: 1.5em;
 }
 
 #keret
@@ -29,11 +29,12 @@ p
 
 table
 {
-	border:outset;
+	border: outset;
 	margin: auto;
 	width: 80%;
 	border: 3px;
 	text-align: center;
+	padding: 0;
 }
 
 hr
@@ -65,4 +66,10 @@ h1{
 h2{
     color: #243f84;
 	text-transform: uppercase;
+}
+.szurke{
+    font-size: small;
+	text-align: center;
+	color: #808183;
+	font-weight: bold;
 }
